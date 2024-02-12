@@ -36,13 +36,13 @@ const MessageVariablesPicker = ({ onClick, disabled }) => {
             name: i18n.t("messageVariablesPicker.vars.protocolNumber"),
             value: "{{protocol}} "
         },
-        {
-            name: i18n.t("messageVariablesPicker.vars.date"),
-            value: "{{date}} "
-        },
+        //{
+            //name: i18n.t("messageVariablesPicker.vars.date"),
+            //value: "{{date}} "
+        //},
         {
             name: i18n.t("messageVariablesPicker.vars.hour"),
-            value: "{{hour}} "
+            value: "{{hora}} "
         },
     ];
 
